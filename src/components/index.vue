@@ -14,7 +14,7 @@
 
 <script>
 import single from "./single";
-//import { isEqual } from "lodash";
+import { isEqual } from "../utils/helpers";
 export default {
   name: "vuePalette",
   components: { single },
@@ -38,9 +38,9 @@ export default {
     };
   },
   mounted() {
-  //  this.active = this.palettes.findIndex(palette =>
-  //    isEqual(palette, this.pick)
-  //);
+    this.active = this.palettes.findIndex(palette =>
+      isEqual(palette, this.pick)
+  );
   },
   methods: {
     picked({ colors, order }) {
@@ -53,11 +53,11 @@ export default {
 
 <style scoped>
 .container-palette {
-    width: auto;
+width: auto;
     height: auto;
     display: flex;
-    overflow-x: none;
-    overflow-y: auto;
-    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+  flex-direction: column;
 }
 </style>

@@ -1,6 +1,7 @@
 <template>
 <vue-palette
   :palettes="palettes"
+  :pick="pick"
 />
 </template>
 
@@ -15,7 +16,9 @@ export default {
     
     ["#05386B", "#379683", "#5CDB95", "#8EE4AF", "#8860D0"],
     
-    ["#2E1114", "#501B1D", "#ADADAD"],            ]
+    ["#2E1114", "#501B1D", "#ADADAD"],            ],
+
+        pick:["#2E1114", "#501B1D", "#ADADAD"]
         }
     }
 

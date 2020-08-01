@@ -68,7 +68,7 @@ export default {
 <style scoped>
 .palette {
   position: relative;
-  width: 100%;
+  width: 95%;
   display: flex;
   border: 1px rgba(253, 253, 253, 0.8) solid;
   opacity: 0.6;
