@@ -1,8 +1,8 @@
 {
   "private": false,
-  "name": "vue-palette",
+  "name": "vue-palettes",
   "version": "1.0.0",
-  "author": "merbou",
+  "author": "Merouane Boucenna",
   "description": "colors palettes selector",
   "main": "/dist/index.js",
   "scripts": {
