@@ -1,9 +1,9 @@
-import VuePixelBar from "./PixelBar.vue";
+import VuePalette from "./Palette.vue";
 
-Object.defineProperty(VuePixelBar, 'install', {
+Object.defineProperty(VuePalette, 'install', {
 	value(Vue) {
-        Vue.component("vue-pixel-bar",VuePixelBar)
+        Vue.component("vue-palette",VuePalette)
 	}
 })
 
-export default VuePixelBar
+export default VuePalette
