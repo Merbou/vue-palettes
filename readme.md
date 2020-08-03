@@ -1,9 +1,12 @@
 # vue-palettes
 >It's a vue component that will allows you to choose the color palette
 
- [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/) [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) [![minified](https://badgen.net/bundlephobia/min/vue-palettes@1.0.0)](https://bundlephobia.com/result?p=vue-palettes@1.0.0) [![gzip](https://badgen.net/bundlephobia/minzip/vue-palettes@1.0.0)](https://bundlephobia.com/result?p=vue-palettes@1.0.0) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Merbou/vue-palettes) [![npm](https://img.shields.io/npm/v/vue-palettes.svg)](https://www.npmjs.com/package/vue-palettes)
+ [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/) [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger) [![minified](https://badgen.net/bundlephobia/min/vue-palettes@1.0.1)](https://bundlephobia.com/result?p=vue-palettes@1.0.0) [![gzip](https://badgen.net/bundlephobia/minzip/vue-palettes@1.0.1)](https://bundlephobia.com/result?p=vue-palettes@1.0.0) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Merbou/vue-palettes) [![npm](https://img.shields.io/npm/v/vue-palettes.svg)](https://www.npmjs.com/package/vue-palettes)
  
  vue-palettes is a dependency-free, lightweight vue component that can be overwrited by yourself.
+
+ ![palette](https://user-images.githubusercontent.com/41240951/89125447-7dfc5480-d4d6-11ea-9a9f-88fdab63c0ac.png)
+
 ### How to use?
 ```bash
 npm install vue-palettes
